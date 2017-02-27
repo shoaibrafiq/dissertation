@@ -19,7 +19,7 @@ Route::get('/about', 'FrontController@about')->name('about');
 Route::get('/news', 'FrontController@news')->name('news');
 Route::get('/contact', 'FrontController@contact')->name('contact');
 Route::get('/success', 'FrontController@success')->name('success');
-
+Route::get('/logout', 'Auth\LoginController@logout');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
