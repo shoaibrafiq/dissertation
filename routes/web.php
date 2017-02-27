@@ -13,9 +13,19 @@
 
 
 
-Route::get('/', 'HomeController@index')->name('home');
-Route::get('/donate', 'HomeController@donate')->name('donate');
-Route::get('/about', 'HomeController@about')->name('about');
-Route::get('/news', 'HomeController@news')->name('news');
-Route::get('/contact', 'HomeController@contact')->name('contact');
-Route::get('/success', 'HomeController@success')->name('success');
+Route::get('/', 'FrontController@index')->name('home');
+Route::get('/donate', 'FrontController@donate')->name('donate');
+Route::get('/about', 'FrontController@about')->name('about');
+Route::get('/news', 'FrontController@news')->name('news');
+Route::get('/contact', 'FrontController@contact')->name('contact');
+Route::get('/success', 'FrontController@success')->name('success');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
+
+Route::group(['prefix' => 'admin', 'middleware'=>'auth'], function () {
+  route::get('/', function () {
+    return view('admin.index');
+  })->name('admin.index');
+});
