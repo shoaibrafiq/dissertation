@@ -6,7 +6,7 @@
 
                 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 
-    <a class="navbar-brand"  href="{{route('home')}}">ICB Admin</a>
+    <a class="navbar-brand"  href="{{route('home')}}">Admin</a>
 
                     <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
