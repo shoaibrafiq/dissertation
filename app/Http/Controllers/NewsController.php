@@ -84,7 +84,9 @@ return view('admin.news.index',compact('news'));
      */
     public function edit($id)
     {
-        //
+      $news = News::findOrFail($id);
+      $categories=Category::pluck('name','id');
+      return view('admin.news.edit', compact('categories','news'));
     }
 
     /**
@@ -96,7 +98,15 @@ return view('admin.news.index',compact('news'));
      */
     public function update(Request $request, $id)
     {
-        //
+      $news = News::findOrFail($id);
+
+
+
+  $input = $request->all();
+
+  $news->fill($input)->save();
+
+return redirect()->route('news.index');
     }
 
     /**
