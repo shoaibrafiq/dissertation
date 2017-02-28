@@ -12,11 +12,11 @@
 
             <li class="current"><a href="{{url('admin')}}">
                     Dashboard</a></li>
-            <li class="current"><a href="#">
+            <li class="current"><a href="{{route('news.index')}}">
                             All News</a></li>
-           <li class="current"><a href="{{url('admin')}}">
+           <li class="current"><a href="{{route('news.create')}}">
                             Add News</a></li>
-           <li class="current"><a href="{{url('admin')}}">
+           <li class="current"><a href="#">
                                   Categories</a></li>
 
 

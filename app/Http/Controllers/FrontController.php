@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Category;
+use App\News;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -20,7 +21,8 @@ class FrontController extends Controller
   }
   public function news()
  {
-  return view('front.news');
+   $news=News::all();
+  return view('front.news', compact('news'));
  }
  public function contact()
 {

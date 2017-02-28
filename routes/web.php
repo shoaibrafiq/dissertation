@@ -28,4 +28,7 @@ Route::group(['prefix' => 'admin', 'middleware'=>'auth'], function () {
   route::get('/', function () {
     return view('admin.index');
   })->name('admin.index');
+
+  Route::resource('news', 'NewsController');
+Route::resource('category', 'CategoriesController');
 });
