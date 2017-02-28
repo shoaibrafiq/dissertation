@@ -15,7 +15,8 @@
 
   <h4>Product ID: {{$news->id}}</h4>
   <h4>Product Name: {{$news->title}}</h4>
- 
+  <a class="btn btn-sm btn-success" href="{{route('news', $news->id)}}">View</a>
+
 <br />
 <br />
 
