@@ -21,7 +21,12 @@
 <br />
 <br />
 
-
+<form action="{{route('news.destroy',$news->id)}}"  method="POST">
+        {{csrf_field()}}
+         {{method_field('DELETE')}}
+        <input class="btn btn-sm btn-danger" type="submit" value="Delete">
+      </form>
+      <hr>
 
 @empty
 

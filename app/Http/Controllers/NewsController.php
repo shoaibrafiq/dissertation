@@ -117,6 +117,7 @@ return redirect()->route('news.index');
      */
     public function destroy($id)
     {
-        //
+      News::destroy($id);
+             return back();
     }
 }
