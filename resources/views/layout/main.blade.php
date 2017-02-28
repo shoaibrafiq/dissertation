@@ -32,7 +32,7 @@
 							<li><a href="{{route('about')}}">About</a></li>
 							<li><a href="{{route('news')}}">News</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
-							<li><a href="#">Admin</a></li>
+							<li><a href="{{route('admin.index')}}">Admin</a></li>
 
 							<div class="clearfix"> </div>
 						</ul>

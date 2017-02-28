@@ -11,7 +11,7 @@
 
                   <div class="panel-body">
                       Welcome to the Admin page!
-<p>Here you can view, add, edit News which will be displayed in the main website.</p>
+<p>Here you can view, add, edit news and assign categories which will be displayed in the main website.</p>
 
                   </div>
               </div>

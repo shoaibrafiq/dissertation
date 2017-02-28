@@ -10,8 +10,14 @@
     box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;">
         <ul class="nav">
 
-            <li class="current"><a href="#">
+            <li class="current"><a href="{{url('admin')}}">
                     Dashboard</a></li>
+            <li class="current"><a href="#">
+                            All News</a></li>
+           <li class="current"><a href="{{url('admin')}}">
+                            Add News</a></li>
+           <li class="current"><a href="{{url('admin')}}">
+                                  Categories</a></li>
 
 
 
