@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Category;
+use App\News;
 use Illuminate\Http\Request;
 
 class CategoriesController extends Controller
@@ -13,7 +15,8 @@ class CategoriesController extends Controller
      */
     public function index()
     {
-        //
+      $categories=Category::all();
+        return view('admin.category.index',compact('categories'));
     }
 
     /**
@@ -23,7 +26,7 @@ class CategoriesController extends Controller
      */
     public function create()
     {
-        //
+      //
     }
 
     /**
@@ -34,7 +37,8 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+      Category::create($request->all());
+      return back();
     }
 
     /**
@@ -45,7 +49,9 @@ class CategoriesController extends Controller
      */
     public function show($id)
     {
-        //
+      $news=Category::find($id)->news;
+      $categories=Category::all();
+        return view('admin.category.index',compact(['categories','news']));
     }
 
     /**

@@ -16,7 +16,7 @@
                             All News</a></li>
            <li class="current"><a href="{{route('news.create')}}">
                             Add News</a></li>
-           <li class="current"><a href="#">
+           <li class="current"><a href="{{route('category.index')}}">
                                   Categories</a></li>
 
 
