@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="header-main">
 				<div class="logo">
-					<a href="index.html"><h1>Al-Mu'min Charity Trust</h1></a>
+					<a href="#"><h1>Al-Mu'min Charity Trust</h1></a>
 				</div>
 				<div class="head-right">
 					<div class="top-nav">
