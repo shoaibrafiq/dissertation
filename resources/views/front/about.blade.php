@@ -14,9 +14,9 @@
 					<img src="images/abt1.jpg" alt="" />
 				</div>
 				<div class="col-md-7 about-right">
-					<h4>Nam sollicitudin massa commodo hendrerit auctor. In hac habitasse platea dictumst. Sed id dolor vehicula.</h4>
-					<p>Vivamus venenatis quam a urna ornare, nec sagittis sem consectetur. Vestibulum mollis mollis elit nec ullamcorper. Aenean erat elit, consectetur sed ipsum eu, faucibus posuere massa.</p>
-					<p>Nullam non neque neque. Sed sit amet sagittis purus. Nullam eget accumsan nibh. Suspendisse et sapien luctus, facilisis magna ut, placerat nisi. Ut fringilla lacus quis justo luctus tincidunt.</p>
+					<h4>"Every act of goodness is charity." - Sahih Muslim, Hadith 496</h4>
+					<p>Al-Mu'min charity Trust is a UK-based international relief and development charity established in Huddersfield, England since 2006. Inspired by the Islamic teachings of empathy, generosity and selflessness, the trust aims to alleviate poverty and suffering across the world.</p>
+			<p>All donated funds are monitored and reviewed by well trained employees who ensure Zakah, Sadaqah and Lillah funds are spent correctly.</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -27,30 +27,30 @@
 	<div class="why">
 		<div class="container">
 			<div class="why-top heading">
-				<h3>why Choose Us</h3>
-				<p>Donec egestas nibh eu ipsum euismod cursus. Aliquam et arcu blandit, efficitur ante a, lacinia neque. Pellentesque lectus neque, vehicula vitae massa ac, malesuada dictum velit.</p>
+				<h3>Why Choose Us</h3>
+					<p>The rights of those who are neglected and oppressed are fulfilled by providing sustainable development solutions relating to shelter, education, health, and spiritual wellbeing.</p>
 			</div>
 			<div class="why-bottom">
 				<div class="col-md-7 why-left">
 					<div class="why-1">
 						<span class="glyphicon glyphicon-film" aria-hidden="true"></span>
 						<div class="why-text">
-							<h4>My vision</h4>
-							<p>Proin pretium ante in lacinia sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							<h4>Our vision</h4>
+							<p>We want to see the whole world united to eleviate the suffering on this earth and help the poor and needy. </p>
 						</div>
 					</div>
 					<div class="why-2">
 						<span class="glyphicon glyphicon-flag" aria-hidden="true"></span>
 						<div class="why-text">
-							<h4>My mission</h4>
-							<p>Proin pretium ante in lacinia sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							<h4>Our mission</h4>
+							<p>The mission is to first help the poor, homeless, refugees etc. in our community then every suffering person in the UK and finally worldwide.</p>
 						</div>
 					</div>
 					<div class="why-2">
 						<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
 						<div class="why-text">
-							<h4>My history</h4>
-							<p>Proin pretium ante in lacinia sodales. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							<h4>Our history</h4>
+							<p>Our humble beginnings were a small book shop in huddersfield which is now expanding to a charity organisation.</p>
 						</div>
 					</div>
 				</div>
@@ -73,12 +73,12 @@
 					<a href="#">
 						<img src="images/t1.jpg" alt="">
 						<div class="captn">
-							<h4>Jane Doe</h4>
-							<p>Nam id urna ipsum</p>
+							<h4>John Doe</h4>
+							<p>Owner/ Manager</p>
 						</div>
 						<div class="team-text">
-							<h5>Jane Doe</h5>
-							<p>Nam id urna ipsum</p>
+							<h5>John Doe</h5>
+							<p>Owner/ Manager</p>
 						</div>
 					</a>
 				</div>
@@ -87,11 +87,11 @@
 						<img src="images/t2.jpg" alt="">
 						<div class="captn">
 							<h4>Adaline</h4>
-							<p>Nam id urna ipsum</p>
+							<p>Project Coordinator</p>
 						</div>
 						<div class="team-text">
 							<h5>Adaline</h5>
-							<p>Nam id urna ipsum</p>
+							<p>Project Coordinator</p>
 						</div>
 					</a>
 				</div>
@@ -99,12 +99,12 @@
 					<a href="#">
 						<img src="images/t3.jpg" alt="">
 						<div class="captn">
-							<h4>Thomas</h4>
-							<p>Nam id urna ipsum</p>
+							<h4>Ali</h4>
+							<p>IT Manager</p>
 						</div>
 						<div class="team-text">
-							<h5>Thomas</h5>
-							<p>Nam id urna ipsum</p>
+							<h5>Ali</h5>
+							<p>IT Manager</p>
 						</div>
 					</a>
 				</div>
@@ -113,11 +113,11 @@
 						<img src="images/t4.jpg" alt="">
 						<div class="captn">
 							<h4>Selena</h4>
-							<p>Nam id urna ipsum</p>
+							<p>Fundraising Representative</p>
 						</div>
 						<div class="team-text">
 							<h5>Selena</h5>
-							<p>Nam id urna ipsum</p>
+							<p>Fundraising Representative</p>
 						</div>
 					</a>
 				</div>
