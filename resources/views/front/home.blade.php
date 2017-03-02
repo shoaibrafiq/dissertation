@@ -178,7 +178,7 @@
     <div class="help-right heading">
       <h3>We Need Your Help</h3>
       <h5>Volunteers Needed</h5>
-      <p>Al-Mu'min Charity Trust is fast growing islamic charity organistation based in Huddersfield but will soon be expanding nationwide. We are giving people a good opportunity to volunteer in something great. Please visit our shop or email us for more information.  </p>
+      <p>Al-Mu'min Charity Trust is a fast growing islamic charity organistation based in Huddersfield but will soon be expanding nationwide. We are giving people a good opportunity to volunteer in something great. Please visit our shop or email us for more information.  </p>
       <div class="tool">
         <a class="tooltips" href="#">
         <span></span></a>

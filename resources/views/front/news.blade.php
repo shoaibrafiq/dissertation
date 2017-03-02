@@ -9,7 +9,7 @@
     <div class="container">
       <div class="events-top heading">
         <h3>Latest News</h3>
-        <p>Donec egestas nibh eu ipsum euismod cursus. Aliquam et arcu blandit, efficitur ante a, lacinia neque. Pellentesque lectus neque, vehicula vitae massa ac, malesuada dictum velit.</p>
+        <p>Here are a news updates about our latest projects and events, from Fundraising Activities in the local community to Project Updates and more... <a href="{{url('/donate')}}">Click here to Donate for anyone of these projects</a></p>
       </div>
       @forelse ($news as $news)
 
