@@ -14,7 +14,8 @@
       @forelse ($news as $news)
 
 
-      <div class="events-bottom">
+      <div style="justify-content: center;
+      align-items: center; display: flex;" class="events-bottom">
         <div class="col-md-6">
           <img style="width:550px; height:300px;"src="{{url('images',$news->image)}}" alt="" />
           <div class="event">
