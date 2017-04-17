@@ -8,10 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title', 'Al-Mu min Charity Trust')</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
 
     <!-- Scripts -->
     <script>
@@ -20,9 +22,10 @@
         ]) !!};
     </script>
 </head>
-<body>
+<body style="background-color: #fff;">
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-static-top" style="background-color: #F0F8FF;">
+
             <div class="container">
                 <div class="navbar-header">
 
@@ -33,25 +36,44 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
+<div class="container">
+            <div class="header-main">
                     <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
+                   <div class="logo">
+                      <br>
+                                      
+                    <a href="#"><h1>Al-Mu'min Charity Trust</h1></a><br>
+                </div>
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
+                   
 
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
-                        @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
+                        @if (Auth::guest())  
+                                      <br> 
+                                      <div class="head-right">
+                    <div class="top-nav">
+                        
+                        <ul>
+
+                            <li><a href="{{route('home')}}">Home</a></li>
+                            <li><a href="{{route('donate')}}">Donate</a></li>
+                            <li><a href="{{route('about')}}">About</a></li>
+                            <li><a href="{{route('news')}}">News</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
+                            <li><a href="{{route('login')}}">Login</a></li>
+                            <li><a href="{{route('register')}}">Register</a></li>
+
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!--script-->
+                    
+                    </div></div>
+                             
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -70,17 +92,49 @@
                                             {{ csrf_field() }}
                                         </form>
                                     </li>
+
                                 </ul>
                             </li>
                         @endif
                     </ul>
+
                 </div>
             </div>
-        </nav>
+        </nav>     </div></div>
+            </div>
 
         @yield('content')
     </div>
-
+    <div class="address">
+        <div class="container">
+            <div class="address-top">
+                <div class="col-md-4 add-left">
+                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                    <p><label>Al-Mu'min Charity Trust</label>
+                        Yews Hill Road, Lockwood
+                        Huddersfield, HD1</p>
+                </div>
+                <div class="col-md-4 add-left">
+                    <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                    <p>01484 123 456 ,
+                    <br>01484 654 321</p>
+                </div>
+                <div class="col-md-4 add-left">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    <p><a href="mailto:shoaib.7291@gmail.com">AMCT@gmail.com</a></p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+<div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="index.html"><h3>Al-Mu'min</h3></a>
+                <p>© 2017 Al-Mu'min Charity Trust. All Rights Reserved | Created by Shoaib Rafiq</p>
+            </div>
+        </div>
+    </div>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

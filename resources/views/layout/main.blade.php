@@ -23,7 +23,7 @@
 					<a href="#"><h1>Al-Mu'min Charity Trust</h1></a>
 				</div>
 				<div class="head-right">
-					<div class="top-nav">
+					<div class="top-nav" style="font-size: 14px;">
 						<span class="menu"><img src="images/nav-icon.png" alt=""> </span>
 						<ul>
 
@@ -32,7 +32,8 @@
 							<li><a href="{{route('about')}}">About</a></li>
 							<li><a href="{{route('news')}}">News</a></li>
 							<li><a href="{{route('contact')}}">Contact</a></li>
-							<li><a href="{{route('admin.index')}}">Admin</a></li>
+							<li><a href="{{route('login')}}">Login</a></li>
+							<li><a href="{{route('register')}}">Register</a></li>
 
 							<div class="clearfix"> </div>
 						</ul>

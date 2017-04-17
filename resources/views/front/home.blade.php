@@ -32,7 +32,6 @@
   <!--banner-end-->
   <!--FlexSlider-->
   <link rel="stylesheet" href="{{asset('css/flexslider.css')}}" type="text/css" media="screen" />
-  <script defer src="{{asset('js/jquery.flexslider.js')}}"></script>
   <script type="text/javascript">
     $(window).load(function(){
       $('.flexslider').flexslider({
