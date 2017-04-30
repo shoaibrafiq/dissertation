@@ -21,7 +21,7 @@ class FrontController extends Controller
   }
   public function news()
  {
-   $news=News::all();
+   $news=News::orderBy('created_at', 'desc')->paginate(100);
   return view('front.news', compact('news'));
  }
  public function contact()
