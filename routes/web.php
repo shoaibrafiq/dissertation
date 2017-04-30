@@ -17,6 +17,7 @@ Route::get('/', 'FrontController@index')->name('home');
 Route::get('/donate', 'FrontController@donate')->name('donate');
 Route::get('/about', 'FrontController@about')->name('about');
 Route::get('/news', 'FrontController@news')->name('news');
+Route::get('news{id}/show', 'FrontController@show')->name('show');
 Route::get('/contact', 'FrontController@contact')->name('contact');
 Route::get('/success', 'FrontController@success')->name('success');
 Route::get('/logout', 'Auth\LoginController@logout');

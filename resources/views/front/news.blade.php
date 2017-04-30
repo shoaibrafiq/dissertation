@@ -29,7 +29,7 @@
                             </div>
 
                             <div class="col-md-12">
-                              <a href="{{route('news.show', $news->id)}}" class="btn btn-default">Read More></a>
+                              <a href="{{route('show', $news->id)}}" class="btn btn-default">Read More></a>
 
                             </div>
 

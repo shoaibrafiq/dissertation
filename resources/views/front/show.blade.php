@@ -18,7 +18,7 @@
                           <h3><label>{{$news->category->name}}</label></h3>
                           <p>{{$news->details}}</p>
 
-                           <p>{{$news->description}}</p>
+                  
 
                           <br><br>
                       </div>

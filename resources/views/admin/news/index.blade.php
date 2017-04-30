@@ -7,7 +7,7 @@
 <br>
   <div style="moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-3 row">
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-2">
 <h3>News List</h3>
 <br />
 
@@ -15,7 +15,7 @@
 
   <h4>News ID: {{$news->id}}</h4>
   <h4>News Title: {{$news->title}}</h4>
-  <a class="btn btn-sm btn-success" href="{{route('news.show', $news->id)}}">View</a>
+  <a class="btn btn-sm btn-success" href="{{route('show', $news->id)}}">View</a>
   <a class="btn btn-sm btn-default" href="{{route('news.edit', $news->id)}}">Edit</a>
 
 <br />

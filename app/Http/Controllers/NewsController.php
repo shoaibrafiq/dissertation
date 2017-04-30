@@ -72,8 +72,8 @@ return view('admin.news.index',compact('news'));
      */
     public function show($id)
     {
-      $news = News::findOrFail($id);
-      return view('admin.news.show', compact('news'));
+      //$news = News::findOrFail($id);
+      //return view('front.show', compact('news'));
     }
 
     /**

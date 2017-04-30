@@ -7,7 +7,7 @@
 <!--used old laravel 4 form method as new version was not working -->
   <div style="moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-3 row">
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-2">
 <h3>Add News</h3>
 {!! Form::open(['route' => 'news.store', 'method' => 'post', 'files' => true]) !!} <!--fetching info from productscontroller  -->
 

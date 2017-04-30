@@ -6,9 +6,9 @@
   <!--this is the edit page where the user can edit products and when submitted it updates -->
 
   <!--used old laravel 4 form method as new version was not working -->
-  <div style="margin-left:250px;  moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  <div style=" moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-2 row">
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-2">
 <h3>Edit News</h3>
 {!! Form::model($news, [
     'method' => 'PATCH',
