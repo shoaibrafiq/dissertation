@@ -17,7 +17,7 @@
 
 
      <div class="col-md-12 col-md-8 col-md-4">
-                <div class="thumbnail" >
+                <div class="thumbnail thumbnail2" >
                   <div class="date">
             <p>{{$news->date}}</p>
           </div>
