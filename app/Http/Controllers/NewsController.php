@@ -73,7 +73,7 @@ return view('admin.news.index',compact('news'));
     public function show($id)
     {
       $news = News::findOrFail($id);
-      return view('front.news', compact('news'));
+      return view('admin.news.show', compact('news'));
     }
 
     /**

@@ -15,7 +15,9 @@ body {
 	font-size: 100%;
 	font-family: 'Roboto-Regular';
 }
-
+.thumbnail{
+    height:350px
+}
 .header{
     background:#F0F8FF;
 }
@@ -188,6 +190,9 @@ body a:hover{
 	color:#003366;
 }
 @media only screen and (max-width: 768px){
+    .thumbnail{
+        height: auto;
+    }
 .navbar-brand{
         display: none;
     }

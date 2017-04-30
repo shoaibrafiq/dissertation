@@ -11,7 +11,8 @@
         <h3>Latest News</h3>
         <p>Here are a news updates about our latest projects and events, from Fundraising Activities in the local community to Project Updates and more... <a href="{{url('/donate')}}">Click here to Donate for anyone of these projects</a></p>
       </div>
-     
+
+    
       @forelse ($news as $news)
 
 
@@ -28,8 +29,7 @@
                             </div>
 
                             <div class="col-md-12">
-                              <p style="margin:5px auto;">{{$news->details}}</p>
-                              <a href="#" class="btn btn-default">Read More></a>
+                              <a href="{{route('news.show', $news->id)}}" class="btn btn-default">Read More></a>
 
                             </div>
 

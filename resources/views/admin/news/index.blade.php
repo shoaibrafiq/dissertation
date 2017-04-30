@@ -15,7 +15,7 @@
 
   <h4>News ID: {{$news->id}}</h4>
   <h4>News Title: {{$news->title}}</h4>
-  <a class="btn btn-sm btn-success" href="{{route('news', $news->id)}}">View</a>
+  <a class="btn btn-sm btn-success" href="{{route('news.show', $news->id)}}">View</a>
   <a class="btn btn-sm btn-default" href="{{route('news.edit', $news->id)}}">Edit</a>
 
 <br />
