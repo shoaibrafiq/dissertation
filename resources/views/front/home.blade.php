@@ -193,10 +193,11 @@
         <h3>Newsletter Subscription</h3>
         <div class="letter-bottom">
           <form>
-            <input type="text" value="Enter Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Name';}">
-            <input type="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
+           <input type="text" placeholder="Name">
+          <input type="text" placeholder="Email">
             <input type="submit" value="Subscribe">
           </form>
+            
         </div>
       </div>
     </div>

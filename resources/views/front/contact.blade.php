@@ -15,7 +15,7 @@
     </div>
     <div class="contact-form heading">
       <h3>Contact Form</h3>
-      <p>Donec egestas nibh eu ipsum euismod cursus. Aliquam et arcu blandit, efficitur ante a, lacinia neque. Pellentesque lectus neque, vehicula vitae massa ac, malesuada dictum velit.</p>
+      <p>If you have any enquiries or just want to give general feedback on our organisation or website then please fill in the contact form below and we will get in touch! </p>
       <div class="contact-bottom">
         <form>
           <input type="text" placeholder="Name">

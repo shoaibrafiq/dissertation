@@ -188,6 +188,18 @@ body a:hover{
 	color:#003366;
 }
 @media(max-width:768px){
+    .img3, .container1{
+        width: 100%;
+    }
+
+   form, #step-1, .list-unstyled, .setup-content,  .form-horizontal, .form-group, .form-control, .stepwizard {
+        width: 100%;
+    }
+    
+    iframe {
+        width: 100%;
+
+}
 span.menu{
 	display: block;
 	text-align: right;
@@ -201,19 +213,21 @@ span.menu{
 	z-index: 9999;
 	left: 0%;
 	margin:1.1em 0em;
-	background: #228B22;
+	background: #F0F8FF;
 	border:0;
 }
 .top-nav span.menu{
 	display: block;
 }
 .top-nav ul li{
-	display: block;
-	float:none;
-	text-align: center;
+  width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    padding: 15px;
+    text-align: center;
 }
 .top-nav ul li a{
-	color:#fff;
+	color: #000;
 	display:block;
 	margin:0;
 	background: none;

@@ -26,7 +26,7 @@
 
   <form role="form" action="" method="post">
     <div class="row setup-content" id="step-1">
-      <div class="col-xs-6 col-md-offset-3">
+      <div class="col-sm-6 col-md-offset-3">
         <div class="col-md-12">
           <h3>Amount</h3>
           <div class="form-group">
@@ -81,7 +81,7 @@
       </div>
     </div>
     <div class="row setup-content" id="step-2">
-      <div class="col-xs-6 col-md-offset-3">
+      <div class="col-sm-6 col-md-offset-3">
         <div class="col-md-12">
           <h3>Personal Information</h3>
 
@@ -133,7 +133,7 @@
       </div>
     </div>
     <div class="row setup-content" id="step-3">
-      <div class="col-xs-6 col-md-offset-3">
+      <div class=" col-sm-6 col-md-offset-3">
         <div class="col-md-12">
           <h3> Payment Method</h3>
 <br>
@@ -193,18 +193,20 @@
         <input type="text" id="cvv" placeholder="CVV" maxlength="4" class="card-cvc form-control">
       </div>
     </div>
-<br><br><br>
-<div class="text-center">
-<br><h3>OR</h3><br>
+     <div class="clearfix"></div>
+<br>
+<div class="text-center col-sm-8">
+<br>
 <p >Donate Using Paypal: </p></div><br>
-<div class="container1">
+ <div class="clearfix"></div>
+<div class="container container1 col-sm-8 ">
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="EFTTTC7FNEPRS">
 <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form></div>
+</form></div> <div class="clearfix"></div>
 
 
 

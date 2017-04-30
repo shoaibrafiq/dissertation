@@ -20,10 +20,10 @@
 		<div class="container">
 			<div class="header-main">
 				<div class="logo">
-					<a href="#"><h1>Al-Mu'min Charity Trust</h1></a>
+					<a href="{{route('home')}}"><h1>Al-Mu'min Charity Trust</h1></a>
 				</div>
 				<div class="head-right">
-					<div class="top-nav" style="font-size: 14px;">
+					<div class="top-nav" style="font-size: 15px;">
 						<span class="menu"><img src="images/nav-icon.png" alt=""> </span>
 						<ul>
 

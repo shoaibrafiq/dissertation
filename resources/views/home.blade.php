@@ -8,7 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
+                    You are logged in! <a href="{{route('admin.index')}}">Click to go back to Admin page</a>
                 </div>
             </div>
         </div>
