@@ -14,8 +14,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <script src="{{asset('js/jquery.min.js')}}"></script>
+
     <link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
+<script src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
 
     <!-- Scripts -->

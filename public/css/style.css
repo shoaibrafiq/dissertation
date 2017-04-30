@@ -187,8 +187,15 @@ body a:hover{
 .top-nav ul li a:hover,.top-nav ul li a.active{
 	color:#003366;
 }
-@media(max-width:768px){
-    .img3, .container1{
+@media only screen and (max-width: 768px){
+.navbar-brand{
+        display: none;
+    }
+    .dropdown{
+        text-align: center;
+    }
+    
+.container1{
         width: 100%;
     }
 
@@ -201,23 +208,23 @@ body a:hover{
 
 }
 span.menu{
-	display: block;
-	text-align: right;
-	cursor: pointer;
-	position: relative;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    position: relative;
 }
 .top-nav ul{
-	display: none;
-	position:absolute;
-	width: 100%;
-	z-index: 9999;
-	left: 0%;
-	margin:1.1em 0em;
-	background: #F0F8FF;
-	border:0;
+    display: none;
+    position:absolute;
+    width: 100%;
+    z-index: 9999;
+    left: 0%;
+    margin:1.1em 0em;
+    background: #F0F8FF;
+    border:0;
 }
 .top-nav span.menu{
-	display: block;
+    display: block;
 }
 .top-nav ul li{
   width: 100%;
@@ -227,14 +234,16 @@ span.menu{
     text-align: center;
 }
 .top-nav ul li a{
-	color: #000;
-	display:block;
-	margin:0;
-	background: none;
-	border:none;
-	padding:0.4em;
+    color: #000;
+    display:block;
+    margin:0;
+    background: none;
+    border:none;
+    padding:0.4em;
 }
+
 }
+ 
 /*--Header-Ends--*/
 /*--banner-starts--*/
 .banner{

@@ -1,10 +1,10 @@
 @extends('admin.layout.admin')
 
 @section('content')
-
-  <div style="margin-left:250px;  moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+<br>
+  <div style="moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-2 row">
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5); display: block;"class="col-md-12 col-md-offset-3 row">
               <a  class="navbar-brand"  href="">Categories--</a>
 
           <!-- Collect the nav links, forms, and other content for toggling -->

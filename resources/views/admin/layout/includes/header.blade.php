@@ -8,7 +8,7 @@
 
     <a class="navbar-brand"  href="{{route('home')}}">Admin</a>
 
-                    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                    <nav class="navbar-right" role="navigation">
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{Auth::user()->name}} <b
